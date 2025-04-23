@@ -1,0 +1,28 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+       - echo Logging / auth in to Amazon ECR
+       - aws ecr get-login-password --region eu-west-3 | docker login --username AWS --password-stdin 529088275111.dkr.ecr.eu-west-3.amazonaws.com 
+
+  build:
+    commands:
+      - echo Build started
+      - echo Building the docker image
+      - docker build -t frontend_image .
+      - docker tag frontend_image:latest 529088275111.dkr.ecr.eu-west-3.amazonaws.com/frontend_image:latest 
+
+
+  post_build:
+    commands:
+     - echo build completed
+     - echo pushing in to docker ECR...
+     - docker push 529088275111.dkr.ecr.eu-west-3.amazonaws.com/frontend_image:latest
+     - echo Writing image definition file..
+     - printf '[{"name":"%s","imageUri":"%s"}]' "frontend_cluster" "529088275111.dkr.ecr.eu-west-3.amazonaws.com/frontend_image" > imagedefinitions.json
+
+
+artifacts:
+  files:
+    - imagedefinitions.json
