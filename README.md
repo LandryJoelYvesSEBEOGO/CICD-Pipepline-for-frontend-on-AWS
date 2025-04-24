@@ -4,7 +4,8 @@ This project sets up a robust and automated CI/CD pipeline for deploying a front
 
 https://github.com/user-attachments/assets/28397d70-f364-454a-9a19-89a86b543cb9
 
-<img src="CICD-Pipepline-for-frontend-on-AWS.png" alt="Aperçu de l'application" width="200"/>
+<img src="AWS CICD worklow.png" alt="Aperçu de l'application" width="500"/>
+
 
 
 
