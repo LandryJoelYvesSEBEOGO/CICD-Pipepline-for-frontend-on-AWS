@@ -2,4 +2,4 @@
 # I am testing the pipepline 
 # third test
 
-# Testing my CICD pipepline on AWS
+# Testing my CICD pipepline for my frontend deployed on AWS.
