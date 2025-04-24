@@ -6,7 +6,6 @@ This project sets up a robust and automated CI/CD pipeline for deploying a front
 
 1. **Create an AWS CLI User**
    - Assign appropriate IAM permissions (AdminAccess, ECR, ECS, S3, CodePipeline, CodeBuild).
-
 2. **Create an Amazon ECR Repository**
    - Used to store Docker images.
 
