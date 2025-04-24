@@ -20,7 +20,7 @@ phases:
      - echo pushing in to docker ECR...
      - docker push 529088275111.dkr.ecr.eu-west-3.amazonaws.com/newfrontend:latest
      - echo Writing image definition file..
-     - printf '[{"name":"%s","imageUri":"%s"}]' "frontend_cluster" "529088275111.dkr.ecr.eu-west-3.amazonaws.com/newfrontend" > imagedefinitions.json
+     - printf '[{"name":"%s","imageUri":"%s"}]' "newfrontend" "529088275111.dkr.ecr.eu-west-3.amazonaws.com/newfrontend" > imagedefinitions.json
 
 
 artifacts:
