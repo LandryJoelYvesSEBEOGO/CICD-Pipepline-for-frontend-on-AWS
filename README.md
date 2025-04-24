@@ -1,6 +1,7 @@
 # 🚀 CI/CD Pipeline for Frontend Deployment on AWS
 
 This project sets up a robust and automated CI/CD pipeline for deploying a frontend application to AWS using **ECS Fargate**, **ECR**, **CodeBuild**, **CodePipeline**, and an **Application Load Balancer** (ALB).
+
 https://github.com/user-attachments/assets/28397d70-f364-454a-9a19-89a86b543cb9
 
 
