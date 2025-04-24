@@ -68,14 +68,6 @@ This project sets up a robust and automated CI/CD pipeline for deploying a front
 - Scalable and secure deployment using ALB.
 - Easily extendable with test or staging environments.
 
-## 📂 Directory Structure
-
-```
-/project-root
-├── Dockerfile
-├── buildspec.yml
-└── README.md
-```
 
 ## 📸 Screenshots
 
