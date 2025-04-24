@@ -52,6 +52,7 @@ This project sets up a robust and automated CI/CD pipeline for deploying a front
       - `REPOSITORY_URI`
 
 ---
+https://github.com/user-attachments/assets/28397d70-f364-454a-9a19-89a86b543cb9
 
 ## 🛠 Technologies
 
