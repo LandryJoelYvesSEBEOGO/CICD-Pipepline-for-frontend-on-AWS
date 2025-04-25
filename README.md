@@ -2,7 +2,7 @@
 
 This project sets up a robust and automated CI/CD pipeline for deploying a frontend application to AWS using **ECS Fargate**, **ECR**, **CodeBuild**, **CodePipeline**, and an **Application Load Balancer** (ALB).
 
-https://github.com/user-attachments/assets/28397d70-f364-454a-9a19-89a86b543cb9
+https://github.com/user-attachments/assets/48ee77ae-d286-4755-be9e-09959f9becbe
 
 <img src="AWS CICD worklow.png" alt="Aperçu de l'application" width="1000"/>
 
